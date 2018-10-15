@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		855A81422149E03F00DD0BAF /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855A81412149E03F00DD0BAF /* Joke.swift */; };
 		8561B73821474299008489AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8561B73721474299008489AE /* AppDelegate.swift */; };
-		8561B73A21474299008489AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8561B73921474299008489AE /* ViewController.swift */; };
 		8561B73D21474299008489AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8561B73B21474299008489AE /* Main.storyboard */; };
 		8561B73F2147429C008489AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8561B73E2147429C008489AE /* Assets.xcassets */; };
 		8561B7422147429C008489AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8561B7402147429C008489AE /* LaunchScreen.storyboard */; };
+		8561B74A2147B618008489AE /* JokeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8561B7492147B618008489AE /* JokeTableViewController.swift */; };
+		8561B74C2147C6C8008489AE /* JokeDefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8561B74B2147C6C8008489AE /* JokeDefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		855A81412149E03F00DD0BAF /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 		8561B73421474299008489AE /* Joke Bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Joke Bank.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8561B73721474299008489AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8561B73921474299008489AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8561B73C21474299008489AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8561B73E2147429C008489AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8561B7412147429C008489AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8561B7432147429C008489AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8561B7492147B618008489AE /* JokeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeTableViewController.swift; sourceTree = "<group>"; };
+		8561B74B2147C6C8008489AE /* JokeDefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeDefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				8561B73721474299008489AE /* AppDelegate.swift */,
-				8561B73921474299008489AE /* ViewController.swift */,
+				8561B7492147B618008489AE /* JokeTableViewController.swift */,
+				8561B74B2147C6C8008489AE /* JokeDefinitionViewController.swift */,
 				8561B73B21474299008489AE /* Main.storyboard */,
 				8561B73E2147429C008489AE /* Assets.xcassets */,
 				8561B7402147429C008489AE /* LaunchScreen.storyboard */,
 				8561B7432147429C008489AE /* Info.plist */,
+				855A81412149E03F00DD0BAF /* Joke.swift */,
 			);
 			path = "Joke Bank";
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8561B73A21474299008489AE /* ViewController.swift in Sources */,
+				8561B74C2147C6C8008489AE /* JokeDefinitionViewController.swift in Sources */,
+				8561B74A2147B618008489AE /* JokeTableViewController.swift in Sources */,
+				855A81422149E03F00DD0BAF /* Joke.swift in Sources */,
 				8561B73821474299008489AE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
